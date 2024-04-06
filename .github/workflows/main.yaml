@@ -144,7 +144,7 @@ jobs:
               --cov conda_project \
               tests
           fi
-      - uses: codecov/codecov-action@v2
+      - uses: codecov/codecov-action@v4
         with:
           files: ./coverage.xml
           env_vars: OS,PYTHON
